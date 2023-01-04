@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import express, { Request, Response } from 'express'
 import 'express-async-errors'
 import cors from 'cors'
@@ -11,5 +12,5 @@ app.get('/', (requeste: Request, response: Response) => {
   return response.json({ msg: `Olá dev!!!!` })
 })
 
-const port = process.env.PORT || 1992
+const port = process.env.PORT || 1993
 app.listen(port, () => console.log(`Server started on port ${port}!`))
