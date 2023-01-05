@@ -1,6 +1,7 @@
 import { v4 as uuidv4 } from 'uuid'
 
 type CreateRoleDTO = string
+
 export interface IRoles {
   id: string
   name: CreateRoleDTO
@@ -12,6 +13,7 @@ const roles: IRoles[] = []
 export function rolesFactory() {
   return {
     create,
+    findAll,
   }
 }
 
@@ -23,4 +25,8 @@ function create(name: string) {
   }
   roles.push(newRoles)
   return newRoles
+}
+
+function findAll(): Array<IRoles> {
+  return roles
 }
