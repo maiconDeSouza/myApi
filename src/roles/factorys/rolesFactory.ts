@@ -14,6 +14,7 @@ export function rolesFactory() {
   return {
     create,
     findAll,
+    findByName,
   }
 }
 
@@ -29,4 +30,9 @@ function create(name: string) {
 
 function findAll(): Array<IRoles> {
   return roles
+}
+
+function findByName(name: string) {
+  const isValid = roles.some(role => role.name === name)
+  return isValid
 }
