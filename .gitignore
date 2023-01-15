@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@maiconDeSouza 
+maiconDeSouza
+/
+myApi
+Public
+Cannot fork because you own this repository and are not a member of any organizations.
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+myApi/.gitignore
+@maiconDeSouza
+maiconDeSouza first commit
+Latest commit e51f014 2 weeks ago
+ History
+ 1 contributor
+45 lines (37 sloc)  495 Bytes
+
 /dist
 /node_modules
 
@@ -43,3 +74,18 @@ tsconfig.tsbuildinfo
 uploads/*
 !uploads/.gitkeep
 db.sqlite
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+myApi/.gitignore at main · maiconDeSouza/myApi
